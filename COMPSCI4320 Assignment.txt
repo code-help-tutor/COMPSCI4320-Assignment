@@ -1,0 +1,18 @@
+WeChat: cstutorcs
+QQ: 749389476
+Email: tutorcs@163.com
+COMPSCI4320 Assignment
+
+Assignment Description
+Obiective
+To gain an understanding of what is required to build a client/server system, you are to use Java RMI to build a system that aggregates and distributes weather data in JSON format using a RESTful API.
+Introduction
+A RESTful API is an interface that computer systems use to exchange information securely over the Internet. Most business applications have to communicate with other internal and third-party applications to perform various tasks. A RESTful APIs support this information exchange because they follow secure, reliable, and efficient software communication standards.
+The application programming interface (API) defines the rules that you must follow to communicate with other software systems. Developers expose or create APIs so that other applications can communicate with their applications programmatically. Representational State Transfer (REST) is a software architecture that imposes conditions on how an API should work. REST was initially created as a guideline to manage communication on a complex network like the internet. You can use REST-based architecture to support high-performing and reliable communication at scale.
+Two important principles of the REST architectural style are:
+• Uniform interface: it indicates that the server transfers information in a standard format. The formatted resource is called a representation in REST. This format can be different from the internal representation of the resource on the server application. In this assignment, the format used is the JSON standard.
+• Statelessness: refers to a communication method in which the server completes every client request independently of all previous requests. Clients can request resources in any order, and every request is stateless or isolated from other requests.
+The basic function of a RESTful API is the same as browsing the internet. The client contacts the server by using the API when it requires a resource. API developers explain how the client should use the REST API in the server application API documentation.
+JSON standard
+JavaScript Object Notation (JSON) is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of attribute-value pairs and arrays (or other serializable values). It is a common data format with diverse uses in electronic data interchange, including that of web applications with servers.
+The following example shows a possible JSON representation describing current weather information.
